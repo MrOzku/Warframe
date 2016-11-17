@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Overview</title>
+		<link rel="stylesheet" href="main.css"/>
+	</head>
+	<body>
+		<div id="div1">
+		</div>
+	<hr>
+		<div id="div2">
+		<p style="text-align:left;font-size:200%;font-family:verdana;">
+		<br>Warframe is a third-person co-op focused action shooter.
+		<br>The game situates the players as members of the Tenno race,
+		<br>newly awoken from centuries of cryosleep to fight
+		<br>the Grineer, Corpus and to stop the infestation.
+		<br><br>To progress in the game your main objective is to
+		<br>do missions on different planets to get coordinates
+		<br>to other planets. You can also craft weapons
+		<br>and Warframes from the resources you find.</p>
+		<button onclick="makeBig()">Bigger</button>
+		<button onclick="makeSmall()">Normal</button>
+		<br><br>
+		<iframe id="video1" width="700" height="400"
+			src="https://www.youtube.com/embed/ebZ09b-Ahio" frameborder="0">
+		</iframe>
+		<br><br>
+		<a href="http://warframe.com">
+			<img src="button.png" style="width:199px;height:45px;border:0;">
+		</a>
+		<a href="gameplay.html">
+			<img src="button3.png" style="width:199px;height:45px;border:0;">
+		</a> 
+		<a href="warframes.html">
+			<img src="button4.png" style="width:199px;height:45px;border:0;">
+		</a>
+		<a href="screenshots.html">
+			<img src="button5.png" style="width:199px;height:45px;border:0;">
+		</a>
+		</div>
+	</body>
+</html>
+
+<script>
+var myVideo = document.getElementById("video1"); 
+
+function makeBig() { 
+    myVideo.width = 1000; 
+	myVideo.height = 526; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 700; 
+	myVideo.height = 400;
+}
+</script>
